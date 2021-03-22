@@ -19,10 +19,19 @@ const ControlsStyle = makeStyles({
 
   volumeSlider: {
     width: 100,
-
     marginRight: 20,
     marginLeft: 20,
     marginTop: 5,
+    color: "#515151",
+    thumb: {
+      color: "#E50914"
+    },
+    track: {
+      color: "#E50914"
+    },
+    rail: {
+      color: "#515151"
+    }
   },
 
   largeSlider: {
