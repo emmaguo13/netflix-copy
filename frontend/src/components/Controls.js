@@ -101,12 +101,17 @@ const Controls = forwardRef(
           container
           direction="row"
           alignItems="flex-start"
-          style={{ padding: 16 }}
+          style={{ padding: 16,
+            backgroundColor:"black"}}
         >
           <IconButton>
             <ArrowBackIcon className={classes.icons} />
           </IconButton>
-          <Grid item>
+          <Grid item
+          style={{
+              backgroundColor:"black"
+          }}
+          >
             <Typography
               variant="h5"
               style={{ color: "#fff", marginTop: "8px" }}

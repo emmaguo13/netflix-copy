@@ -9,8 +9,10 @@ import useTime from "./hooks/useTime";
 const useStyles = makeStyles({
   playerWrapper: {
     width: "100%",
-    position: "relative",
+    
     paddingTop: "50%",
+    //width: 'auto', // Reset width
+ 
   },
 });
 
